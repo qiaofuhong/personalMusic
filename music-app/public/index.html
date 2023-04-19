@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- 引入alibaba图标库 -->
+    <script src="//at.alicdn.com/t/c/font_3903665_0dkq3w0t3z3d.js"></script>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- 引入淘宝自适应布局 -->
+    <!-- <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"></script> -->
+    <!-- 引入rem.js 自适应窗口变动 -->
+    <!-- <%=BASE_URL %>此处为基础路径也就是public文件夹的路径 -->
+    <script src="<%= BASE_URL %>js/rem.js"></script> 
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+
+<style lang="less">
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+  }
+
+</style>
