@@ -6,7 +6,7 @@ import axios from 'axios'
 //创建实例
 let service = axios.create({
   //基础路径
-  baseURL:'http://localhost:3000',
+  baseURL:'https://netease-cloud-music-api-uqpv-8046lbyz9-qiaofuhong.vercel.app/',
   //返回时间
   timeout:3000,
   withCredentials: true,
